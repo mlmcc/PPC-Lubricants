@@ -1,0 +1,16 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+#header{
+	width:970px;
+	height:120px;
+	background-color: gray;
+}
+#content{
+	width: 970px;
+	height:
+	600px;
+	background-color: black;
+}
