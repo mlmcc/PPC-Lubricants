@@ -33,24 +33,24 @@
 		background:linear-gradient(white, #AAAAAA);
 		padding-left: 20px;
 	}
-	.navbutton, .navbutton1{
-		height:20px;
-		border:1px solid #BBBBBB;
-		padding-left: 5px;
-		padding-right: 5px;
-		text-decoration: none;
-		color:#666666;
-		display: inline-block;
-		font-size: 12px;
-		font-weight: bold;
-		vertical-align: top;
-		padding-left: 15px;
-		padding-right: 15px;
-		padding-top: 5px;
-	}
-	.navbutton1{
-		margin-left: 20px;
-	}
+		.navbutton, .navbutton1{
+			height:20px;
+			border:1px solid #BBBBBB;
+			padding-left: 5px;
+			padding-right: 5px;
+			text-decoration: none;
+			color:#666666;
+			display: inline-block;
+			font-size: 12px;
+			font-weight: bold;
+			vertical-align: top;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 5px;
+		}
+		.navbutton1{
+			margin-left: 20px;
+		}
 #content{
 	width: 970px;
 	height:500px;
@@ -101,9 +101,10 @@
 			width:970px;
 		}
 			#tinylogo{
-				height:12px;
+				height:11px;
 				width:40px;
 				margin-left: 30px;
+				margin-bottom: 10px;
 				display: inline-block;
 				border-radius: 2px;
 			}
@@ -160,4 +161,27 @@
 				padding-top:3px;
 				display: block;
 				margin-top: 13px;
+				border-right: #EECC33;
+				display: inline-block;
 			}
+			.triangleborder{
+				height:0px;
+				width:0px;
+				display: inline-block;
+				vertical-align: top;
+				margin-top: 13px;
+				border-left: 9px solid black;
+				border-top: 9px solid transparent;
+				border-bottom: 9px solid transparent;
+			}.triangle{
+				height:0px;
+				width: 0px;
+				display: inline-block;
+				position: relative;
+				left:-9px;
+				top:3px;
+				border-left: 7px solid #EECC33;
+				border-top: 7px solid transparent;
+				border-bottom: 7px solid transparent;
+			}
+			
