@@ -164,6 +164,10 @@
 				border-right: #EECC33;
 				display: inline-block;
 			}
+			/*Below is the basic solution for how to create a triangle.  Essentially you create a new element with 0 Size
+			then the triangle that you see is the border on one side of that element.  The intersection between the 
+			top/bottom and side borders occurs at a 45 degree angle.  Note that the dimensions on the triangle are not equal
+			to the size of the "read more" button next to it.  I simply used trial and error to get things to line up visually*/
 			.triangleborder{
 				height:0px;
 				width:0px;
@@ -173,7 +177,9 @@
 				border-left: 9px solid black;
 				border-top: 9px solid transparent;
 				border-bottom: 9px solid transparent;
-			}.triangle{
+			}
+			/*Here is the smaller triangle which needs to be placed over the larger triangle*/
+			.triangle{
 				height:0px;
 				width: 0px;
 				display: inline-block;
